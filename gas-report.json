@@ -1,0 +1,70 @@
+[
+  {
+    "label": "current",
+    "createdAt": "2025-07-10T13:57:52.023Z",
+    "result": {
+      "SBTItem": {
+        "send": {
+          "gasUsed": {
+            "kind": "init",
+            "value": "2499"
+          },
+          "cells": {
+            "kind": "init",
+            "value": "19"
+          },
+          "bits": {
+            "kind": "init",
+            "value": "9159"
+          }
+        }
+      },
+      "DNSRoot": {
+        "send": {
+          "gasUsed": {
+            "kind": "init",
+            "value": "309"
+          },
+          "cells": {
+            "kind": "init",
+            "value": "11"
+          },
+          "bits": {
+            "kind": "init",
+            "value": "4092"
+          }
+        }
+      },
+      "DNSRecord": {
+        "send": {
+          "gasUsed": {
+            "kind": "init",
+            "value": "1937"
+          },
+          "cells": {
+            "kind": "init",
+            "value": "8"
+          },
+          "bits": {
+            "kind": "init",
+            "value": "2811"
+          }
+        },
+        "setDNSRecord": {
+          "gasUsed": {
+            "kind": "init",
+            "value": "4626"
+          },
+          "cells": {
+            "kind": "init",
+            "value": "8"
+          },
+          "bits": {
+            "kind": "init",
+            "value": "2811"
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tact-lang/tact/main/src/config/configSchema.json",
+  "projects": [
+    {
+      "name": "DNSRoot",
+      "path": "contracts/dns/root.tact",
+      "output": "build/DNSRoot",
+      "options": {
+        "debug": false,
+        "external": false
+      },
+      "mode": "full"
+    },
+    {
+      "name": "SBTItem",
+      "path": "contracts/sbt/item.tact",
+      "output": "build/SBTItem",
+      "options": {
+        "debug": false,
+        "external": false
+      },
+      "mode": "full"
+    }
+  ]
+}

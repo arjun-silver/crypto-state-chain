@@ -1,0 +1,37 @@
+{
+  "0xb5a2f1acb0b1e9f0c05728edf168973cfc5535700be42257fd50ed9f7f8b0c31": "DNSRoot",
+  "0xe82331b4dfbcfb719ea6a7ed48c1b2b14d178a3b28b44ff6f47b473c73acf161": "DNSRecord",
+  "0xd6f9ee361080b780f28cf38f570cf20137f77713ef7f6c25a8893248c59186c6": "SBTItem",
+  "0x282d7f5808dfac73d620ac8fafd7167ca3c66288a97f69580cc85966d8e3d61f": "DNSRoot",
+  "0x2c2a2482716b96979307b047c88f48961eebf42a12e2e3f9f517d4d4c250853c": "DNSRecord",
+  "0x8116ca789950c2c22fc2e80f3c1e1ba5acf774ee17798f8e8230b751074a6535": "DNSRoot",
+  "0x12bc27439ccef901fac0b61ab8b9913e1370406e846a15cd844f339575f07bf5": "DNSRecord",
+  "DNSRoot": {
+    "receivers": [],
+    "types": [],
+    "name": "DNSRoot"
+  },
+  "DNSRecord": {
+    "receivers": [
+      {
+        "receiver": "internal",
+        "message": {
+          "kind": "typed",
+          "type": "setDNSRecord"
+        }
+      }
+    ],
+    "types": [
+      {
+        "name": "setDNSRecord",
+        "header": 3271725571
+      }
+    ],
+    "name": "DNSRecord"
+  },
+  "SBTItem": {
+    "receivers": [],
+    "types": [],
+    "name": "SBTItem"
+  }
+}
